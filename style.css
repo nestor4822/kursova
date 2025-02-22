@@ -1,0 +1,43 @@
+.jim{
+list-style:none;
+list-style-type:none;
+}
+li{
+display:inline-block;
+position:relative;
+text-align:center;
+background:yellow;
+border:3px solid black;
+}
+.ban{
+color:grey;
+}
+b{
+color:green;
+}
+a{
+display:inline-block;
+position:relative;
+text-align:center;
+}
+.port{
+width:350px;
+height:120px;
+}
+.braz{
+color:orange;
+}
+.exe{
+padding:60px;
+margin:0;
+}
+@media screen and (max-width: 600px)  { 
+body{
+	background-color:pink;
+}
+}
+@media screen and (min-width: 1099px)  { 
+body{
+	background-color:red;
+}
+}

@@ -1,0 +1,28 @@
+li{
+display:inline-block;
+position:relative;
+text-align:center;
+background:yellow;
+border:3px solid black;
+padding:60px;
+}
+.mi{
+width:200px;
+height:350px;
+}
+.braz{
+color:orange;
+}
+b{
+color:green;
+}
+@media screen and (max-width: 600px)  { 
+body{
+	background-color:pink;
+}
+}
+@media screen and (min-width: 1099px)  { 
+body{
+	background-color:blue;
+}
+}
